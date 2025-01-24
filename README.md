@@ -1,10 +1,10 @@
-Project Description
+**Project Description**
 This project is a React-based image search application integrated with the Pixabay API, allowing users to search for images by category, view the images, and add captions. The app is designed with a clean layout using Tailwind CSS for styling. Here’s a breakdown of its functionality and components:
 
-Main Features
+**Main Features**
 Image Search Functionality:
 
-The user can enter a category in the search bar (e.g., "nature", "city", "animals") and fetch related images from the Pixabay API.
+-The user can enter a category in the search bar (e.g., "nature", "city", "animals") and fetch related images from the Pixabay API.
 The images are displayed in a grid, each showing a preview with a "Add Caption" button beneath it.
 Image Display:
 
@@ -15,9 +15,9 @@ Adding Captions:
 On clicking the "Add Caption" button below each image, the user is navigated to the Caption Page (a separate page where the user can add a caption to the selected image).
 Routing:
 
-React Router is used for navigating between the pages (Home/Search Page and Add Caption Page).
+-React Router is used for navigating between the pages (Home/Search Page and Add Caption Page).
 Components
-MyContext and contextstore:
+**MyContext and contextstore:**
 
 This context API is used to manage the state of images fetched from the Pixabay API.
 The fetchimages function retrieves images based on the search category, and the images state stores the fetched images.
@@ -46,7 +46,7 @@ Clicking the "Add Caption" button on an image redirects the user to a different 
 Context Management:
 
 The contextstore manages the global state of images, which can be accessed across multiple components, ensuring that images fetched on one page can be used across the app.
-Technologies Used:
+**Technologies Used:**
 React: For building the UI and managing component states.
 Tailwind CSS: For responsive, utility-first styling.
 React Router: For managing the app's routes and enabling page navigation.
